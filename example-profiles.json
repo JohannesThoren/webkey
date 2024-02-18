@@ -1,0 +1,19 @@
+{
+    "profiles": [
+        {
+            "name": "Test",
+            "keyMap": [
+                {
+                    "id": 5,
+                    "text": "Test",
+                    "action": "alt+space"
+                },
+                {
+                    "id": 1,
+                    "text": "x",
+                    "action": "x"
+                }
+            ]
+        }
+    ]
+}

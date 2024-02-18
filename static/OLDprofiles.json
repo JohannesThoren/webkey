@@ -1,0 +1,39 @@
+{
+    "profiles": [
+        {
+            "name": "Elite 1",
+            "keyMap": [
+                {
+                    "id": 32,
+                    "text": "Ship Lights",
+                    "action": "l"
+                },
+                {
+                    "id": 33,
+                    "text": "Cargo Scoop",
+                    "action": "alt+c"
+                },
+                {
+                    "id": 34,
+                    "text": "Landing Gears",
+                    "action": "alt+g"
+                }
+            ]
+        },
+        {
+            "name": "Test",
+            "keyMap": [
+                {
+                    "id": 5,
+                    "text": "Test",
+                    "action": "alt+space"
+                },
+                {
+                    "id": 1,
+                    "text": "x",
+                    "action": "x"
+                }
+            ]
+        }
+    ]
+}
