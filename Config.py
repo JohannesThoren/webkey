@@ -115,6 +115,13 @@ class App(Tk):
 
                 self.__buttons.append(btn)
 
+
+        btnConfFrame = ttk.LabelFrame(self.frm, text="Configure", padding=10)
+        btnConfFrame.grid()
+
+        ttk.Label(btnConfFrame, text="poof").grid(column=0, row=0)
+
+
         return
 
 
