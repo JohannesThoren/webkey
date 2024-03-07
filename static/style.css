@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#panel {
+    height: 5vh;
+}
+
+#status,
+#controls {
+    box-sizing: border-box;
+    padding: .2rem;
+    padding-inline: .5rem;
+}
+
+#buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: .5rem;
+    box-sizing: border-box;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.btn {
+    all: unset;
+    width: min(15rem, 95%);
+    height: min(10rem, 90%);
+    border: 1px solid orangered;
+    border-radius: .3rem;
+    text-align: center;
+    color: orangered;
+    box-shadow: 0px 0px 5px orangered;
+}
+
+
+
+.btn:hover {
+    box-shadow: 0px 0px 0px orangered;
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 0px orangered;
+    cursor: pointer;
+}
+
+
+select {
+    color: orangered;
+    background-color: black;
+    border: 1px solid orangered;
+    border-radius: .3rem;
+    height: 2rem;
+}
+
+@media screen and (max-width: 805px) {
+
+    #status,
+    #controls {
+        box-sizing: border-box;
+        padding: .2rem;
+        padding-inline: .5rem;
+    }
+
+
+    #panel {
+        height: 15vh;
+
+    }
+
+    #buttons-container {
+        height: 85vh;
+    }
+
+    .btn  {
+        font-size: 10pt;
+        
+    }
+
+    select {
+        height: 2rem;
+    }
+
+}

@@ -1,0 +1,1 @@
+{"profiles": {"TestProfile 2": {"mappings": {"0": {"action": "alt+f4", "text": "Close Window"}, "11": {"action": "t", "text": "test"}, "13": {"action": "x", "text": "x"}}}, "Test 2": {"mappings": {"0": {"action": "alt+space", "text": "Search"}}}}}
